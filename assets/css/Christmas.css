@@ -1,0 +1,79 @@
+*,body,html{margin:0;padding: 0;}
+.dn{display: none!important;}
+.db{display: block!important;}
+.bgImg{position:absolute;z-index: 1;width:100%;background-repeat: no-repeat;background-position: center;}
+.con{width: 1176px;margin:auto;overflow: hidden;}
+.retc{display: block;position:absolute; overflow:hidden; z-index: 999;}
+.bgImg11 .con{position: relative;height:1578px;}
+.bgImg11 a{position: absolute;width: 340px;height: 290px;bottom: 243px;left: 80px;z-index: 99;display: block;}
+.tit{font-size: 30px;font-weight: bold;text-align: center; color: #fff;}
+.swiperBox{position: absolute;z-index: 9;}
+.swiper-container-box-two{
+    position: relative;
+    width: 1000px; 
+    height: 409px;
+    margin:0 auto;
+    text-align: center;
+}
+.swiper-container-box-two .imgBox{padding:0 10px;background-color:transparent;}
+.swiper-container-box-three{
+		position: relative;
+        width: 100%; 
+        height: 409px;
+		margin:0 auto;
+		text-align: center;
+    }
+.swiper-container-box-three .imgBox{padding-right: 20px;background-color:transparent;width: 100%;}
+.whiteBg{width: 1170px; margin:auto;background-color: #fff;/*box-shadow: 10px 0px 80px -10px #666, -10px 0px 80px -10px #666*/}
+.swiper-button-prev{margin-left: -55px;background-image: none;}
+.swiper-button-prev{border-top: 10px solid #fff;border-left: 10px solid #fff; transform: rotate(-45deg);width: 50px;height: 50px;}
+.swiper-button-next{border-top: 10px solid #fff;border-right: 10px solid #fff; transform: rotate(45deg);width: 50px;height: 50px;}
+.swiper-button-next:hover,.swiper-button-prev:hover{border-color: #FFF100;}
+.swiper-button-next{margin-right: -60px;background-image: none;}
+.swiper-container-box-one{
+		position: relative;
+		margin:0 auto;
+	}
+.swiperOne .swiper-slide .imgBox{width: 100%;}
+.swiper-slide .imgBox .imgOne{width: 1170px;}
+.swiperOne{
+	width: 100%;
+	
+}
+.swiperOne .swiper-slide{
+	
+	box-sizing: border-box;
+	width: 100%;
+}
+.swiper-pagination-switch{background-color: #ccc;}
+.swiper-active-switch{background-color: #FFF100;}
+.swiper-pagination{bottom: -20px;} 
+.swiper-pagination{text-align: center;margin: auto;left: 0;right: 0;}
+.info10 .lunboBox {
+	display: inline-block;
+	width: 500px;
+	overflow: hidden;
+	position: relative;
+	height: 200px;
+	padding:0 30px;
+}
+.info10 ul{
+	position: absolute;
+	top:0px;
+	right: 30px;
+}
+.info10 li{
+	font-size: 18px;
+	list-style: none;
+}
+.info10 li a{
+	color: #595757;
+	line-height: 40px;
+	display: block;
+	text-decoration: none;
+}
+.info10 li a:hover,.info10 li a.active{
+	color: #c27720;
+}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/idangerous.swiper2.7.6.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/Christmas.css" />
+    
+  </head>
+  <body>
+    <div>
+      <div class="content">
+        <!--页面内容部分-->
+        <div id="area" class="area">
+
+        </div>
+        <div id="area2" class="area">
+
+        </div>
+      </div>
+      <!--菜单-->
+      <div class="menu">
+        <ul>
+          <li class="uploadBgBox">
+            <input class="uploadBgInp" type="file" id="uploadBg">
+            <div class="uploadBgBtn">上传背景图</div>
+          </li>
+          <li id="lunboDD">轮播点点</li>
+          <li id="lunboJT">轮播箭头</li>
+          <li id="drawBtn">画链接</li>
+          <li id="buildFile">生成html</li>
+        </ul>
+      </div>
+      <!--轮播设置框-->
+      <div class="tan dn" id="tanDD">
+        <input id="setImgNum" placeholder="每次动画图片个数">
+        <input id="setWidth" placeholder="动画框宽度">
+        <input id="setHeight" placeholder="图片高度"> 
+        <input id="setPointH" placeholder="底部点点距离">
+        <div class="yes">确定</div>
+        <div class="no">取消</div>
+      </div>
+      <!--下载地址设置-->
+      <div class="tan dn" id="tanDownLoad">
+          <input type="hidden" id="bgImgUrl">
+          <input type="text" id="download-to" disabled><button id="choose-folder">选择文件夹</button>
+          <button id="download-btn">Download</button>
+      </div>
+    </div>
+    <script src="assets/js/idangerous.swiper2.7.6.min.js"></script>
+    <script id="jsHtml" type="text/template"></script>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+      require('./drawBox.js')
+      require('./downloan.js')
+    </script>
+    
+  </body>
+</html>
